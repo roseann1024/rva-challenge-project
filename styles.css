@@ -1,0 +1,95 @@
+body {
+  background: #f9f7fe;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+main {
+  padding: 15px 0 30px 0;
+}
+h1 {
+  font-weight: 800;
+}
+
+div {
+  display: block;
+}
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  border-top: 1px solid #f9f7fe;
+  padding-top: 15px;
+}
+
+a {
+  color: #885df1;
+}
+#enter-city {
+  width: 75%;
+  padding: 20px;
+  border: none;
+  background-color: #f9f7fe;
+  border-radius: 6px;
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.search-city {
+  padding: 19px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #885df1;
+  color: white;
+  font-size: 16px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.container {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.weather-now {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.weather-now strong {
+  color: #f65282;
+}
+.weather-temperature-icon {
+  position: relative;
+  top: 33px;
+  font-size: 60px;
+}
+
+#weather-temperature-degree {
+  font-size: 80px;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+}
+
+.weather-temperature-celsius {
+  font-size: 28px;
+  position: relative;
+  top: -6px;
+}
+
+.weather-current {
+  display: flex;
+  justify-content: space-between;
+}
